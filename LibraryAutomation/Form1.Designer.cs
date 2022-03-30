@@ -48,8 +48,6 @@
             this.GetBookData = new System.Windows.Forms.Button();
             this.BtnGetAllData = new System.Windows.Forms.Button();
             this.lviewData = new System.Windows.Forms.ListView();
-            this.GetData = new System.Windows.Forms.Button();
-            this.tboxGetID = new System.Windows.Forms.TextBox();
             this.pubDatePicker = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -236,26 +234,9 @@
             this.lviewData.TabIndex = 10;
             this.lviewData.UseCompatibleStateImageBehavior = false;
             // 
-            // GetData
-            // 
-            this.GetData.Location = new System.Drawing.Point(717, 336);
-            this.GetData.Name = "GetData";
-            this.GetData.Size = new System.Drawing.Size(122, 23);
-            this.GetData.TabIndex = 27;
-            this.GetData.Text = "Get Data";
-            this.GetData.UseVisualStyleBackColor = true;
-            this.GetData.Click += new System.EventHandler(this.GetData_Click);
-            // 
-            // tboxGetID
-            // 
-            this.tboxGetID.Location = new System.Drawing.Point(729, 296);
-            this.tboxGetID.Name = "tboxGetID";
-            this.tboxGetID.Size = new System.Drawing.Size(100, 20);
-            this.tboxGetID.TabIndex = 26;
-            // 
             // pubDatePicker
             // 
-            this.pubDatePicker.Location = new System.Drawing.Point(729, 179);
+            this.pubDatePicker.Location = new System.Drawing.Point(750, 208);
             this.pubDatePicker.Name = "pubDatePicker";
             this.pubDatePicker.Size = new System.Drawing.Size(200, 20);
             this.pubDatePicker.TabIndex = 25;
@@ -263,7 +244,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(758, 280);
+            this.label1.Location = new System.Drawing.Point(779, 280);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 24;
@@ -271,7 +252,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(648, 182);
+            this.label2.Location = new System.Drawing.Point(669, 211);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 22;
@@ -280,7 +261,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(648, 156);
+            this.label3.Location = new System.Drawing.Point(669, 185);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 21;
@@ -289,7 +270,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(648, 130);
+            this.label4.Location = new System.Drawing.Point(669, 159);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 20;
@@ -298,7 +279,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(648, 104);
+            this.label5.Location = new System.Drawing.Point(669, 133);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 23;
@@ -307,7 +288,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(648, 78);
+            this.label6.Location = new System.Drawing.Point(669, 107);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 13);
             this.label6.TabIndex = 19;
@@ -316,7 +297,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(648, 52);
+            this.label7.Location = new System.Drawing.Point(669, 81);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 18;
@@ -324,42 +305,42 @@
             // 
             // tboxUpdateBkNum
             // 
-            this.tboxUpdateBkNum.Location = new System.Drawing.Point(729, 153);
+            this.tboxUpdateBkNum.Location = new System.Drawing.Point(750, 182);
             this.tboxUpdateBkNum.Name = "tboxUpdateBkNum";
             this.tboxUpdateBkNum.Size = new System.Drawing.Size(100, 20);
             this.tboxUpdateBkNum.TabIndex = 17;
             // 
             // tboxUpdateBkAuther
             // 
-            this.tboxUpdateBkAuther.Location = new System.Drawing.Point(729, 127);
+            this.tboxUpdateBkAuther.Location = new System.Drawing.Point(750, 156);
             this.tboxUpdateBkAuther.Name = "tboxUpdateBkAuther";
             this.tboxUpdateBkAuther.Size = new System.Drawing.Size(100, 20);
             this.tboxUpdateBkAuther.TabIndex = 16;
             // 
             // tboxUpdateBkPublisher
             // 
-            this.tboxUpdateBkPublisher.Location = new System.Drawing.Point(729, 101);
+            this.tboxUpdateBkPublisher.Location = new System.Drawing.Point(750, 130);
             this.tboxUpdateBkPublisher.Name = "tboxUpdateBkPublisher";
             this.tboxUpdateBkPublisher.Size = new System.Drawing.Size(100, 20);
             this.tboxUpdateBkPublisher.TabIndex = 15;
             // 
             // tboxUpdateBkName
             // 
-            this.tboxUpdateBkName.Location = new System.Drawing.Point(729, 75);
+            this.tboxUpdateBkName.Location = new System.Drawing.Point(750, 104);
             this.tboxUpdateBkName.Name = "tboxUpdateBkName";
             this.tboxUpdateBkName.Size = new System.Drawing.Size(100, 20);
             this.tboxUpdateBkName.TabIndex = 14;
             // 
             // tboxUpdateBkTitle
             // 
-            this.tboxUpdateBkTitle.Location = new System.Drawing.Point(729, 49);
+            this.tboxUpdateBkTitle.Location = new System.Drawing.Point(750, 78);
             this.tboxUpdateBkTitle.Name = "tboxUpdateBkTitle";
             this.tboxUpdateBkTitle.Size = new System.Drawing.Size(100, 20);
             this.tboxUpdateBkTitle.TabIndex = 13;
             // 
             // UpdateBook
             // 
-            this.UpdateBook.Location = new System.Drawing.Point(718, 241);
+            this.UpdateBook.Location = new System.Drawing.Point(739, 241);
             this.UpdateBook.Name = "UpdateBook";
             this.UpdateBook.Size = new System.Drawing.Size(122, 23);
             this.UpdateBook.TabIndex = 11;
@@ -370,7 +351,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(648, 26);
+            this.label8.Location = new System.Drawing.Point(669, 55);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 29;
@@ -378,8 +359,7 @@
             // 
             // tboxUpdateBkID
             // 
-            this.tboxUpdateBkID.Enabled = false;
-            this.tboxUpdateBkID.Location = new System.Drawing.Point(729, 23);
+            this.tboxUpdateBkID.Location = new System.Drawing.Point(750, 52);
             this.tboxUpdateBkID.Name = "tboxUpdateBkID";
             this.tboxUpdateBkID.Size = new System.Drawing.Size(100, 20);
             this.tboxUpdateBkID.TabIndex = 28;
@@ -391,8 +371,6 @@
             this.ClientSize = new System.Drawing.Size(961, 417);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tboxUpdateBkID);
-            this.Controls.Add(this.GetData);
-            this.Controls.Add(this.tboxGetID);
             this.Controls.Add(this.pubDatePicker);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -456,8 +434,6 @@
         private System.Windows.Forms.Button GetBookData;
         private System.Windows.Forms.Button BtnGetAllData;
         private System.Windows.Forms.ListView lviewData;
-        private System.Windows.Forms.Button GetData;
-        private System.Windows.Forms.TextBox tboxGetID;
         private System.Windows.Forms.DateTimePicker pubDatePicker;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
